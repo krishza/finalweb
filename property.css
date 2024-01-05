@@ -1,0 +1,519 @@
+/*-------our agent section para----*/
+.property-para {
+    margin-top: 50px;
+    padding-left: 5rem;
+    padding-bottom: 30px;
+
+}
+
+.property-para h2 {
+    border-left: 5px solid #02ca5f;
+    height: 7rem;
+    padding: 15px;
+    font-size: 40px;
+}
+
+@media screen and (max-width:390px) {
+    .property-para h2 {
+        font-size: 20px;
+        height: 3rem;
+        padding: 5px;
+    }
+}
+
+/*--------------------------Card-----------------------------------*/
+/*--------------------------our property--------------------*/
+
+.card-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+
+.card-container .card {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .8s ease-in-out;
+    transition: .3s ease-in-out;
+
+}
+
+.card-container .card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card {
+    display: flex;
+    float: left;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 10px 3px 30px rgba(0, 0, 0, 0.341);
+
+
+
+
+}
+
+.card-container {
+
+    transition: transform .3s;
+}
+
+
+
+.card img {
+    width: 38%;
+    height: 210px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:500px) {
+    .card img {
+        width: 48%;
+    }
+
+}
+
+.card-content {
+    padding: 8px;
+}
+
+
+.date-area-price p {
+    background-color: #4e4e4e11;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Onest', sans-serif;
+    justify-content: space-between;
+    font-size: 4px;
+
+}
+
+.card-content h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.card-content h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.card-content h4 span p {
+    font-size: 12px;
+    margin: 2px;
+}
+
+.card-content p {
+    color: #2b2a2a;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card-content .btn {
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px solid #0bbd64;
+    border-radius: 5px;
+    color: #000000;
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+
+.card-content .btn:hover {
+    background-color: #0bbd64;
+    color: white;
+    animation: alternate;
+}
+
+.card-content p span {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+
+    .card-content .btn {
+        display: inline-block;
+        padding: 6px 8px;
+        font-size: 12px;
+        text-decoration: none;
+        border: 2px solid #0bbd64;
+        border-radius: 5px;
+        color: #000000;
+        margin-top: 10px;
+        font-weight: 600;
+
+    }
+
+    .card-content h3 {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+
+    .card-content h4 {
+        font-size: 11px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .card-content h4 span p {
+        font-size: 12px;
+        margin: 2px;
+    }
+
+    .card-content p {
+        color: #2b2a2a;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .card-container .card {
+        border: 1px solid rgba(0, 0, 0, 0.171);
+        box-shadow: 2px 3px 4px rgb(0, 186, 59);
+    }
+
+
+
+    .card-container .card {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .8s ease-in-out;
+        transition: .3s ease-in-out;
+
+    }
+
+    .card-container .card:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1);
+    }
+}
+
+
+
+/*-------------trending property----*/
+.pro-heading {
+    margin-top: 50px;
+    padding-left: 5rem;
+    padding-bottom: 30px;
+
+}
+
+.pro-heading h4 {
+    border-left: 5px solid #02ca5f;
+    height: 5rem;
+    padding: 15px;
+    font-size: 36px;
+}
+
+@media screen and (max-width:450px) {
+    .pro-heading h4 {
+        font-size: 26px;
+        height: 3rem;
+    }
+}
+
+.pro {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.pro-card {
+    display: flex;
+    float: left;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 6px;
+    border: 1px solid rgba(86, 86, 86, 0.606);
+
+
+
+}
+
+
+.pro-card:hover {
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.309);
+    border: 0px;
+}
+
+
+.pro-card img {
+    width: 36%;
+    height: 170px;
+}
+
+.pro-card-content {
+    padding: 4px;
+}
+
+
+.pro-date-area-price p {
+    background-color: #30303051;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Onest', sans-serif;
+    justify-content: space-between;
+    font-size: 4px;
+
+}
+
+.pro-card-content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.pro-card-content h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.pro-card-content h4 span p {
+    font-size: 10px;
+    margin: 2px;
+}
+
+.pro-card-content p {
+    color: #414141aa;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.pro-card-content .btn {
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px solid #0bbd64;
+    border-radius: 5px;
+    color: #000000;
+    margin-top: 8px;
+    font-weight: 600;
+
+}
+
+.pro-card-content .btn:hover {
+    background-color: #0bbd64;
+    color: white;
+    animation: alternate;
+}
+
+.pro-card-content p span {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+
+/*---------- trending property view / Property details view--------*/
+
+
+.trending-para {
+    margin-top: 50px;
+    padding-left: 5rem;
+    padding-bottom: 20px;
+
+}
+
+.trending-para a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.trending-para p {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(121, 121, 121);
+}
+
+.trending-para h3 {
+    border-left: 5px solid #02ca5f;
+    height: 5rem;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.property-pay-det {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    font-weight: 500;
+
+}
+
+.property-pay-det span {
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+}
+
+
+.property-view {
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.079);
+}
+
+#overview-heading {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    border-bottom: 1px solid rgb(47, 47, 47);
+}
+
+.column span {
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(121, 121, 121);
+}
+
+.column p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10rem;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+
+.about-view {
+    padding: 30px;
+    width: 100%;
+    margin-top: 24px;
+    justify-content: center;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.079);
+}
+
+#about-heading {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    border-bottom: 1px solid rgb(47, 47, 47);
+}
+
+.about-view-para p {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(99, 99, 99);
+    line-height: 26px;
+}
+
+.row-heading {
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.row {
+    border-bottom: 1px solid rgba(85, 85, 85, 0.511);
+}
+
+
+.property-pay-det .btn {
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid #0bbd64;
+    border-radius: 5px;
+    color: #000000;
+    margin: auto;
+    margin-left: 7rem;
+    font-weight: 600;
+
+}
+
+.property-pay-det .btn:hover {
+    background-color: #0bbd64;
+    color: white;
+    animation: alternate;
+}
+
+@media screen and (max-width:500px) {
+    .trending-para h3 {
+        font-size: 20px;
+        height: 2rem;
+        padding: 5px;
+    }
+
+    .trending-para p {
+        font-size: 12px;
+    }
+
+    .column span {
+        font-weight: 700;
+        font-size: 14px;
+        color: rgb(121, 121, 121);
+    }
+
+    .about-view {
+        padding: 30px;
+        width: 850px;
+        margin: auto;
+    }
+
+    .property-pay-det .btn {
+
+        padding: 6px 6px;
+        font-size: 14px;
+        text-decoration: none;
+        border: 2px solid #0bbd64;
+        border-radius: 5px;
+        color: #000000;
+        margin: auto;
+
+
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .row {
+        border-bottom: none;
+    }
+
+    .property-pay-det span {
+        font-weight: 600;
+        font-size: 16px;
+
+    }
+
+}
